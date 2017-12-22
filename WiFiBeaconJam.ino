@@ -1,10 +1,11 @@
 /*
- * OLIMEX MOD-WIFI-ESP8266(-DEV) board
+ * ESP8266 board
  * this will send random beacon frames and
  * randomized probe requests.
  * It is probably too random, as chances are very small to randomly create the same frame twice 
- * to add proper noise to tracking systems....
+ * to add proper noise and anoy simple tracking systems....
  */
+
 #include "ouis.h"
 #include <ESP8266WiFi.h>
 
